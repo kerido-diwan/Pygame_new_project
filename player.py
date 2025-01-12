@@ -19,7 +19,7 @@ class Player(pygame.sprite.Sprite):
         }
         self.feet = pygame.Rect(0, 0, self.rect.width * 0.5 , 12)
         self.old_position = self.position.copy()
-        self.speed = 0.40 #vitesse du mouvement
+        self.speed = 0.50 #vitesse du mouvement
 
     def save_location(self):
         self.old_position = self.position.copy()
