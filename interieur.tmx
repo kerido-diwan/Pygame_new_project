@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="42">
+<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="45">
  <tileset firstgid="1" source="house.tsx"/>
  <layer id="1" name="Calque de Tuiles 1" width="30" height="30">
   <data encoding="csv">
@@ -74,5 +74,9 @@
   <object id="38" type="collision" x="470.667" y="794.667" width="12" height="22.6667"/>
   <object id="40" type="collision" x="880" y="460" width="33.3333" height="13.3333"/>
   <object id="41" type="collision" x="228" y="285.333" width="45.3333" height="26.6667"/>
+  <object id="42" name="spawn_haus" x="612" y="769">
+   <point/>
+  </object>
+  <object id="44" name="door_exit_haus" x="570" y="846" width="71" height="29"/>
  </objectgroup>
 </map>

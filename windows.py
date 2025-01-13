@@ -30,7 +30,7 @@ class Windows:
         self.group = pyscroll.PyscrollGroup(map_layer=map_layer, default_layer=4)
         self.group.add(self.player)
 
-        enter_haus = tmx_data.get_object_by_name("enter_haue")
+        enter_haus = tmx_data.get_object_by_name("enter_haus")
         self.enter_haus_rect = pygame.Rect(enter_haus.x , enter_haus.y , enter_haus.width, enter_haus.height)
 
     def handel_input(self):
@@ -75,7 +75,7 @@ class Windows:
         enter_haus = tmx_data.get_object_by_name("door_exit_haus")
         self.enter_haus_rect = pygame.Rect(enter_haus.x, enter_haus.y, enter_haus.width, enter_haus.height)
          #spawn point
-        spawn_haus_point  = tmx_data.get_object_by_name("sapwn_haus")
+        spawn_haus_point  = tmx_data.get_object_by_name("spawn_haus")
         self.player.position[0] = spawn_haus_point.x
         self.player.position[1] = spawn_haus_point.y
 
@@ -99,7 +99,7 @@ class Windows:
         self.group = pyscroll.PyscrollGroup(map_layer=map_layer, default_layer=4)
         self.group.add(self.player)
 
-        enter_haus = tmx_data.get_object_by_name("enter_haue")
+        enter_haus = tmx_data.get_object_by_name("enter_haus")
         self.enter_haus_rect = pygame.Rect(enter_haus.x, enter_haus.y, enter_haus.width, enter_haus.height)
 
          #spawn point
