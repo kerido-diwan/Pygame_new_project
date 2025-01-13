@@ -58,7 +58,7 @@ class Windows:
         map_data = pyscroll.TiledMapData(tmx_data)  # Permet de deplacer la carte dans la fenetre
         map_layer = pyscroll.orthographic.BufferedRenderer(map_data,
                                                            self.screen.get_size())  # Renu graphique en fonction de la taille de
-        map_layer.zoom = 1.5  # la fenetre avec get_size()
+        map_layer.zoom = 1  # la fenetre avec get_size()
 
 
         # definir list de colision
